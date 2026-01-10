@@ -19,8 +19,6 @@ Apresentação do projeto (vídeo):
 
 ---
 
-<br>
-
 ## Contexto
 Este projeto foi desenvolvido para fins de avaliação no curso "Engenharia de Machine Learning - FIAP". A proposta é construir um pipeline de dados completo, com o objetivo de extrair, processar e analisar dados históricos de ações ou índices da B3 (Bolsa de Valores Brasileira), utilizando arquitetura baseada em Cloud Computing.
 
@@ -29,8 +27,6 @@ O pipeline deverá ser capaz de realizar a ingestão diária de dados financeiro
 <br>
 
 ---
-
-<br>
 
 ## Arquitetura do Pipeline de Dados
 
@@ -50,8 +46,6 @@ O pipeline deverá ser capaz de realizar a ingestão diária de dados financeiro
 <br>
 
 ---
-
-<br>
 
 ## Resultados
 
@@ -94,8 +88,6 @@ A partir dos dados fornecidos pela tabela, diversos insights podem ser extraído
 
 ---
 
-<br>
-
 ## Tecnologias
 
 Este projeto faz uso de diversas tecnologias avançadas para garantir uma solução eficiente, escalável e fácil de manter. Abaixo estão as principais ferramentas e serviços utilizados para a construção do pipeline de ingestão e processamento de dados da Bovespa.
@@ -113,40 +105,19 @@ Este projeto faz uso de diversas tecnologias avançadas para garantir uma soluç
 - **Amazon Athena** – Serviço de consulta interativo que permite executar SQL diretamente sobre dados armazenados no Amazon S3, facilitando a análise e geração de relatórios.
 
 
-
-<br>
-
-
-
 ### Tecnologias de Orquestração e Automação
-
-
 
 - **AWS Lambda** – Serviço serverless que automatiza e orquestra o fluxo de trabalho entre os diferentes serviços do pipeline. No projeto, o Lambda é responsável por acionar o job de ETL no AWS Glue sempre que novos dados são carregados no S3.
 
 - **Amazon CloudWatch** – Serviço de monitoramento para rastrear logs e performance do pipeline, garantindo que todos os jobs e processos sejam executados corretamente.
 
 
-
-<br>
-
-
-
 ### Ferramentas de Coleta de Dados
-
-
 
 - **yfinance** – Biblioteca Python utilizada para extrair dados históricos de ações da B3 através da API do Yahoo Finance. Esta ferramenta automatiza o processo de coleta de dados financeiros da bolsa.
 
 
-
-<br>
-
-
-
 ### Destaques do Projeto
-
-
 
 - **Processamento Distribuído**: Utilização do Apache Spark no AWS Glue para realizar transformações de dados em grande escala, otimizando o tempo de processamento.
 
@@ -159,19 +130,10 @@ Este projeto faz uso de diversas tecnologias avançadas para garantir uma soluç
 - **Escalabilidade**: O uso de AWS Glue e Amazon S3 garante que o pipeline possa escalar conforme o volume de dados cresce, sem comprometer a performance
 
 
-
 <br>
-
-
 
 ---
 
-<br>
-
-
-
 ## Próximos Passos
-
-
 
 O projeto já possui uma base robusta para ingestão, processamento e análise de dados financeiros, mas para garantir a integridade e a confiabilidade dos dados ao longo do tempo, é essencial implementar mecanismos de qualidade de dados. Dito isso, destaca-se a necessidade da implementação de regras de qualidade e monitoramento através do AWS Glue Data Quality, assegurando dados consistentes e confiáveis em todo o pipeline.
