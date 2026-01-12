@@ -3,8 +3,10 @@
 Este projeto implementa um fluxo de pipeline batch de dados automatizado para a ingestão, processamento e análise de dados da B3 (Bovespa), utilizando serviços AWS (Amazon Web Servies) como S3, Glue, Lambda e Athena.
 
 Autora: Alice Beatriz da Silva
-Última atualização: 10/01/2026
-Apresentação do projeto (vídeo):
+
+Última atualização: 12/01/2026
+
+Apresentação do projeto (vídeo): https://youtu.be/UcGHHMX6rcY?si=QzNaZm8wgWRxnRXx
 
 <br>
 
